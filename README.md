@@ -1,5 +1,4 @@
 
-````markdown
 ![Python Version](https://img.shields.io/badge/python-3.10-blue)  
 ![License](https://img.shields.io/badge/license-MIT-green)  
 ![Last Commit](https://img.shields.io/github/last-commit/HelloShibani/multi-strategy-recommendation-pipeline)  
@@ -14,14 +13,14 @@ A robust, real-world-ready recommendation system that blends **personalization**
 <details>
   <summary>📑 Table of Contents</summary>
 
-- [Project Overview](#-project-overview)  
-- [Techniques Used](#-techniques-used)  
-- [Evaluation Summary](#-evaluation-summary)  
-- [Dataset](#-dataset)  
-- [Repository Structure](#-repository-structure)  
-- [How to Run](#-how-to-run)  
-- [Summary Slide](#-summary-slide)  
-- [Future Enhancements](#-future-enhancements)  
+- [📌 Project Overview](#-project-overview)  
+- [⚙️ Techniques Used](#️-techniques-used)  
+- [📊 Evaluation Summary](#-evaluation-summary)  
+- [🗃️ Dataset](#-dataset)  
+- [📂 Repository Structure](#-repository-structure)  
+- [🚀 How to Run](#-how-to-run)  
+- [📄 Summary Slide](#-summary-slide)  
+- [🛠️ Future Enhancements](#️-future-enhancements)
 
 </details>
 
@@ -65,9 +64,9 @@ It’s designed to be **modular**, **transparent**, and **transferable** across 
 
 ### 📈 Visual Insights  
 Stored in `/visuals/`:
-- F1@5 by strategy  
-- Strategy-wise user count  
-- Strategy distribution (pie)
+- `strategy_f1_score.png` – F1@5 by strategy  
+- `strategy_user_count.png` – Strategy-wise user count  
+- `strategy_user_distribution_pie.png` – Strategy distribution pie
 
 ---
 
@@ -79,9 +78,9 @@ A filtered subset of the **Amazon Reviews** dataset with applied constraints on 
 - 📚 **2,142 products**  
 - ✍️ **18,263 interactions**
 
-📥 Download from: [Kaggle – Amazon Fine Food Reviews](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
+📥 [Download from Kaggle – Amazon Fine Food Reviews](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
 
-> **Note**: `Reviews.csv` must be manually downloaded and placed in the `/data/` folder. It is excluded from the repo for size and licensing reasons.
+> ⚠️ **Note**: `Reviews.csv` must be manually downloaded and placed in the `/data/` folder. It is excluded from the repo for size and licensing reasons.
 
 ---
 
@@ -100,7 +99,6 @@ A filtered subset of the **Amazon Reviews** dataset with applied constraints on 
 │   ├── strategy_user_count.png
 │   └── strategy_user_distribution_pie.png
 └── README.md
-````
 
 ---
 
